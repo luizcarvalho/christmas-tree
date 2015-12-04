@@ -4,5 +4,5 @@
 > ruby chrisrmas-tree.rb
 
 
-## How it works
+## Demonstration
 ![Demonstration](demo.gif)
