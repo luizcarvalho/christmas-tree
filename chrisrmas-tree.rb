@@ -8,6 +8,7 @@ def draw
   puts_star
   turn_on_light(tree)
   puts colorize "Feliz Natal!".center(WIDTH), :red
+  puts "\e[0m"
 end
 
 
@@ -18,7 +19,7 @@ def turn_on_light(tree)
 end
 
 def puts_star  
-  puts colorize "★".center(WIDTH), :yellow
+  puts colorize "\u2605".center(WIDTH), :yellow
 end
 
 def blink
@@ -30,7 +31,7 @@ def colorize(string, color)
 end
 
 while true
+  system('clear')
   draw
   sleep(1)
-  system('clear')
 end
