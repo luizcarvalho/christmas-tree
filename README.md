@@ -1,8 +1,8 @@
 # Awesome Terminal Christmas Tree
 
 ## Lets Play
-> ruby christmas-tree.rb
+> ruby chrisrmas-tree.rb
 
 
-## How this work:
+## How it works
 ![Demonstration](demo.gif)
